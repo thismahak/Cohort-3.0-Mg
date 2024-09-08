@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bg-Color-Changer</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="index.js"></script>
+</head>
+<body>
+    <!-- container -->
+    <div class="container">
+
+        <!-- Navbar -->
+        <nav class="navbar">
+            <h1 class="nav-heading">Background Color Changer</h1>
+            <div class="custom-div">
+                
+                <input class="input" id='input' type="text" placeholder="Enter a background color"/>
+                <button onclick="addCustomColor()" class="custom-btn">Add Custom</button>
+            </div>
+            
+
+        </nav>
+
+        <!-- Main div -->
+         <div class="main-div">
+            <div class="color-panel">
+                <button  class="btn-class" onclick="clickHandler('red')"  id="red"    style="background-color:red ;">Red</button>
+                <button  class="btn-class" onclick="clickHandler('yellow')"  id="yellow" style="background-color:yellow;">Yellow</button>
+                <button  class="btn-class" onclick="clickHandler('black')"  id="black"  style="background-color:black ;">Black</button>
+                <button  class="btn-class" onclick="clickHandler('purple')"  id="purple" style="background-color:purple ;">Purple</button>
+                <button  class="btn-class" onclick="clickHandler('green')"  id="green"  style="background-color:green;">Green</button>
+                <button  class="btn-class" onclick="clickHandler('blue')"  id="blue"   style="background-color:blue ;">Blue</button>
+                
+            </div>
+         </div>
+        
+    </div>
+</body>
+</html>
